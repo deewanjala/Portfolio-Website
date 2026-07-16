@@ -32,10 +32,9 @@ A research project investigating disparities in healthcare access across Kenya u
 
 ## 📫 Contact
 
-- **Email:** your-email@example.com
-- **LinkedIn:** https://linkedin.com/in/your-profile
+- **Email:** deewanjala831@gmail.com
+- **LinkedIn:** https://linkedin.com/in/dwanjala-diana-4512a5403
 - **GitHub:** https://github.com/deewanjala
 
----
 
 © 2026 Diana Wanjala
