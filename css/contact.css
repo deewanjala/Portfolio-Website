@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F8FAFC;
+    color:#1E293B;
+    line-height:1.7;
+    margin-top:90px;
+}
+
+a{
+    text-decoration:none;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+
+.contact-hero{
+
+padding:100px 10%;
+
+text-align:center;
+
+background:linear-gradient(135deg,#04205e,#04205e);
+
+color:white;
+
+}
+
+.contact-hero h1{
+
+font-size:48px;
+
+margin-bottom:20px;
+
+}
+
+.contact-hero p{
+
+max-width:700px;
+
+margin:auto;
+
+line-height:1.8;
+
+font-size:18px;
+
+}
+
+.contact-container{
+
+padding:80px 10%;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+}
+
+.info-card{
+
+display:flex;
+
+align-items:center;
+
+gap:20px;
+
+background:white;
+
+padding:20px;
+
+margin:20px 0;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.info-card i{
+
+font-size:28px;
+
+color:#2563EB;
+
+}
+
+.social-links{
+
+margin-top:40px;
+
+display:flex;
+
+gap:20px;
+
+}
+
+.social-links a{
+
+width:50px;
+
+height:50px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:#2563EB;
+
+color:white;
+
+border-radius:50%;
+
+font-size:20px;
+
+transition:.3s;
+
+text-decoration:none;
+
+}
+
+.social-links a:hover{
+
+transform:translateY(-6px);
+
+background:#1D4ED8;
+
+}
+
+.contact-form{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-form h2{
+
+margin-bottom:25px;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+width:100%;
+
+padding:16px;
+
+margin-bottom:20px;
+
+border:1px solid #CBD5E1;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+outline:none;
+
+border-color:#2563EB;
+
+}
+
+.contact-form button{
+
+width:100%;
+
+padding:16px;
+
+border:none;
+
+background:#2563EB;
+
+color:white;
+
+font-size:17px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.contact-form button:hover{
+
+background:#1D4ED8;
+
+}
+
+@media(max-width:768px){
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-hero h1{
+
+font-size:36px;
+
+}
+
+}
